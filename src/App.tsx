@@ -1,8 +1,12 @@
-import { useState } from "react";
+import Home from "./screens/Home/Home";
 import "./App.scss";
 
 function App() {
-  return <>Hola</>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
