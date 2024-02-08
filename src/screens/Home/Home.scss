@@ -1,0 +1,8 @@
+@import "../../theme/variables";
+
+.home {
+  @include section;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
