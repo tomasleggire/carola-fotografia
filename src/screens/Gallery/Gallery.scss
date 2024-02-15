@@ -1,0 +1,6 @@
+@import "../../theme/variables";
+
+.gallery {
+  @include section;
+  background-color: blue;
+}

@@ -1,9 +1,5 @@
 import "./Home.scss";
 
 export default function Home() {
-  return (
-    <div className="home" id="home">
-      HOME
-    </div>
-  );
+  return <div className="home" id="home"></div>;
 }
