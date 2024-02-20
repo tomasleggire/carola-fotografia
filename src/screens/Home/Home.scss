@@ -5,8 +5,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://images.pexels.com/photos/1104014/pexels-photo-1104014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-color: $white;
+}
+
+.bg-home {
+  margin-top: 20px;
+  width: 90%;
+  min-height: 80vh;
+  background-image: url(../../assets/main-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; /* Para centrar la imagen */
+  background-position: center center;
 }
