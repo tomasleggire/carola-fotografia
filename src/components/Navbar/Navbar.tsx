@@ -8,13 +8,13 @@ export default function Navbar() {
       </h1>
       <ul>
         <li>
-          <a>Trabajos</a>
+          <a href="#">Trabajos</a>
         </li>
         <li>
-          <a>Información</a>
+          <a href="#">Información</a>
         </li>
         <li>
-          <a>Contacto</a>
+          <a href="#">Contacto</a>
         </li>
       </ul>
     </nav>

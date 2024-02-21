@@ -9,11 +9,30 @@
 }
 
 .bg-home {
-  margin-top: 20px;
   width: 90%;
-  min-height: 80vh;
-  background-image: url(../../assets/main-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 78vh;
+    width: 100%;
+    object-fit: cover;
+  }
 }
+
+//Clase para agregar animacion
+// .img-fade {
+//   animation: myAnim 1s ease 0s 1 normal forwards;
+// }
+
+// @keyframes myAnim {
+//   0% {
+//     transform: translateX(-5%);
+//     opacity: 0;
+//   }
+
+//   100% {
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+// }
