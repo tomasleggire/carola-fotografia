@@ -21,12 +21,7 @@ export default function Home() {
   return (
     <div className="home" id="home">
       <div className="bg-home img-fade">
-        <img
-          src={currentImg}
-          alt="Imagen de Inicio"
-          // className="img-fade"
-          // key={Date.now()}
-        />
+        <img src={currentImg} alt="Imagen de Inicio" />
       </div>
     </div>
   );

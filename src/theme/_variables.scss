@@ -3,7 +3,18 @@
   min-height: 100vh;
 }
 
+@mixin sombra {
+  box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75);
+}
+
+@mixin glassEffect {
+  background: rgba(255, 255, 255, 0.1); /* Fondo blanco semi-transparente */
+  backdrop-filter: blur(15px); /* Desenfoque del fondo */
+}
+
 $white: #f8f6f6;
 $black: #222;
-$beige: rgb(238, 209, 122);
+$beige: rgb(234, 205, 121);
 $dark-beige: rgb(125, 105, 65);

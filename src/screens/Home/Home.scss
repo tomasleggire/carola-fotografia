@@ -9,30 +9,13 @@
 }
 
 .bg-home {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   img {
-    height: 78vh;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
   }
 }
-
-//Clase para agregar animacion
-// .img-fade {
-//   animation: myAnim 1s ease 0s 1 normal forwards;
-// }
-
-// @keyframes myAnim {
-//   0% {
-//     transform: translateX(-5%);
-//     opacity: 0;
-//   }
-
-//   100% {
-//     transform: translateX(0);
-//     opacity: 1;
-//   }
-// }

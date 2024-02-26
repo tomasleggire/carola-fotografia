@@ -1,3 +1,4 @@
+import { MdMenu } from "react-icons/md";
 import "./Navbar.scss";
 
 export default function Navbar() {
@@ -6,17 +7,9 @@ export default function Navbar() {
       <h1>
         Carola Alegre <strong>PH</strong>
       </h1>
-      <ul>
-        <li>
-          <a href="#">Trabajos</a>
-        </li>
-        <li>
-          <a href="#">Información</a>
-        </li>
-        <li>
-          <a href="#">Contacto</a>
-        </li>
-      </ul>
+      <div className="menu-icon-container">
+        <MdMenu className="menu-icon" />
+      </div>
     </nav>
   );
 }
