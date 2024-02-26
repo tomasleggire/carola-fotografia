@@ -14,7 +14,11 @@
   backdrop-filter: blur(15px); /* Desenfoque del fondo */
 }
 
+@mixin textSombra {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
 $white: #f8f6f6;
 $black: #222;
-$beige: rgb(234, 205, 121);
+$beige: rgb(223, 181, 53);
 $dark-beige: rgb(125, 105, 65);

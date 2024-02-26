@@ -1,0 +1,19 @@
+@import "../../theme/variables";
+
+.main-comment {
+  font-family: "Urbanist", sans-serif;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $beige;
+  h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $white;
+    @include textSombra;
+  }
+}
