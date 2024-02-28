@@ -10,10 +10,9 @@
   background-color: $beige;
   h1 {
     text-align: center;
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 600;
     text-transform: uppercase;
-    color: $white;
-    @include textSombra;
+    color: $black;
   }
 }
