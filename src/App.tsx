@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Home />
       <Gallery />
-      <CommentDivider comment="Crea recuerdos para toda la vida" />
+      <CommentDivider comment="Un recuerdo perfecto de momentos inolvidables" />
     </>
   );
 }

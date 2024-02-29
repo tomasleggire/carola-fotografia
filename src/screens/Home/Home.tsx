@@ -1,28 +1,45 @@
-import { useState, useEffect } from "react";
-import "./Home.scss";
 import imageHome from "../../assets/main-bg.jpg";
 import imageHome2 from "../../assets/main-bg2.jpg";
 import imageHome3 from "../../assets/main-bg3.jpg";
+import Slider from "react-slick";
+import "./Home.scss";
 
 export default function Home() {
-  const imagesForHome = [imageHome, imageHome2, imageHome3];
-  const [currentImg, setCurrentImg] = useState(imagesForHome[0]);
+  const images = [
+    {
+      img: imageHome,
+      alt: "Imagen de fondo de home",
+    },
+    {
+      img: imageHome2,
+      alt: "Imagen de fondo de home",
+    },
+    {
+      img: imageHome3,
+      alt: "Imagen de fondo de home",
+    },
+  ];
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentImg((prevImg) => {
-        const currentIndex = imagesForHome.indexOf(prevImg);
-        return imagesForHome[(currentIndex + 1) % imagesForHome.length];
-      });
-    }, 6000);
-    return () => clearInterval(timer);
-  }, []);
+  const settings = {
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    draggable: false,
+    pauseOnHover: false,
+  };
 
   return (
     <div className="home" id="home">
-      <div className="bg-home img-fade">
-        <img src={currentImg} alt="Imagen de Inicio" />
-      </div>
+      <Slider {...settings} className="home-slider">
+        {images.map((item, index) => (
+          <img src={item.img} alt={item.alt} key={index} />
+        ))}
+      </Slider>
     </div>
   );
 }
