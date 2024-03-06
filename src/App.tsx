@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./screens/Home/Home";
-import Gallery from "./screens/Gallery/Gallery";
+import IntroductionSection from "./screens/IntroductionSection/IntroductionSection";
 import CommentDivider from "./components/CommentDivider/CommentDivider";
 import "./App.scss";
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Gallery />
+      <IntroductionSection />
       <CommentDivider comment="Un recuerdo perfecto de momentos inolvidables" />
     </>
   );

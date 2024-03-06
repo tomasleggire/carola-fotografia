@@ -1,9 +1,9 @@
-import "./Gallery.scss";
+import "./IntroductionSection.scss";
 
-export default function Gallery() {
+export default function IntroductionSection() {
   return (
-    <div className="gallery" id="gallery">
-      <div className="gallery-header">
+    <div className="introduction-section" id="introduction-section">
+      <div className="introduction-section-header">
         <h1>Carola Alegre</h1>
         <h2>Fotografía Infantíl</h2>
         <p>
