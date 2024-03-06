@@ -1,0 +1,9 @@
+@import "../../theme/variables";
+
+.gallery {
+  @include section;
+  background: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
