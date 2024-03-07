@@ -13,6 +13,7 @@ function App() {
       <IntroductionSection />
       <CommentDivider comment="Un recuerdo perfecto de momentos inolvidables" />
       <Gallery />
+      <CommentDivider comment="SEA AUTÉNTICO y único" />
     </>
   );
 }
